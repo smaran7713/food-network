@@ -1,0 +1,66 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header ul{
+   list-style: none;
+   margin-left: 50%;
+   display: flex;
+}
+#menu li{
+    padding: 20px;
+}
+.tomato-color{
+    color: tomato;
+}
+.link-btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    padding: 10px 30px;
+    font-weight: 400;
+    border-radius: 20px;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding: 30px;
+    text-align: justify;
+
+}
+.half-width img{
+    width: 80%;
+}
+.about-me{
+    background-image: url(images/shapes/7.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.my-recipies{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.item{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    flex-basis: 27%;
+    margin-left: 3%;
+    padding: 10px  
+}
+.item img{
+width: 100%;
+}
+.gray-color{
+    color: gray;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 40px
+}
